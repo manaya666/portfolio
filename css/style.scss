@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@mixin inner($w:1140px) {
+@mixin inner($w: 1140px) {
     width: 90%;
     max-width: $w;
     margin: 0 auto;
@@ -23,7 +23,7 @@ $mb: 767px;
 
 /*  共通  */
 body {
-    @include inner($w:1140px);
+    @include inner($w: 1140px);
     color: #000;
     background-color: #dfe0e0;
     font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica,
