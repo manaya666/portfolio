@@ -352,18 +352,37 @@ small {
   margin-bottom: 40px;
 }
 .skill__subtitle {
-  font-weight: 400;
+  font-weight: 500;
+  min-width: 175px;
+  margin-left: 150px;
+}
+@media screen and (max-width: 767px) {
+  .skill__subtitle {
+    text-align: center;
+    margin: 0;
+  }
 }
 .skill__card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 0 0 18px 0;
   border-bottom: 2px solid #d4d4d4;
+}
+@media screen and (max-width: 767px) {
+  .skill__card {
+    display: block;
+  }
 }
 .skill__list {
   display: flex;
   flex-wrap: wrap;
   margin: 0 0 8px 30px;
+}
+@media screen and (max-width: 767px) {
+  .skill__list {
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

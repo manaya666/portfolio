@@ -420,17 +420,34 @@ small {
     }
 
     &__subtitle {
-        font-weight: 400;
+        @include mobile() {
+            text-align: center;
+            margin: 0;
+        }
+
+        font-weight: 500;
+        min-width: 175px;
+        margin-left: 150px;
     }
 
     &__card {
+        @include mobile() {
+            display: block;
+        }
+
         @include flex();
-        justify-content: center;
         margin: 0 0 18px 0;
         border-bottom: 2px solid #d4d4d4;
     }
 
     &__list {
+        @include mobile() {
+            justify-content: center;
+            flex-direction: row;
+            margin-left: 0;
+
+        }
+
         @include flex();
         margin: 0 0 8px 30px;
     }
