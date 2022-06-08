@@ -145,6 +145,13 @@ footer {
   font-family: "Grape Nuts", cursive;
   margin-bottom: 40px;
   text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s;
+}
+.top__title.is-show {
+  opacity: 1;
+  visibility: visible;
 }
 .top__list {
   padding: 5px;
@@ -308,6 +315,9 @@ small {
 .url__link:hover {
   background-color: #555;
   color: #fff;
+}
+.url__maintenance {
+  color: #f00;
 }
 
 /*  about  */

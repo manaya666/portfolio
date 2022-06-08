@@ -187,6 +187,14 @@ footer {
         font-family: 'Grape Nuts', cursive;
         margin-bottom: 40px;
         text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 1s;
+    }
+
+    &__title.is-show {
+        opacity: 1;
+        visibility: visible;
     }
 
     &__list {
@@ -372,6 +380,10 @@ small {
             background-color: #555;
             color: #fff;
         }
+    }
+
+    &__maintenance {
+        color: #f00
     }
 }
 
