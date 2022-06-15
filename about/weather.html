@@ -33,54 +33,58 @@
         <div class="head">
             <h3 class="head__title">お天気アプリ</h3>
             <p class="head__title-date">2022</p>
-            <p class="head__text">お天気アプリを制作しました。
+            <p class="head__text">気象庁のAPIを使用して, 癖毛の人向けのお天気アプリを制作しました。
             </p>
-            <img class="head__img" src="../img/QTalk2.png" alt="qtalk">
+            <img class="head__img" src="../img/weather1.png" alt="qtalk">
         </div>
         <div class="work">
             <section class="work__category">
                 <h4 class="work__subtitle">デザイン</h4>
                 <p class="work__text">
-                    落ち着いた色合いで見やすいようアクセントに青い色を使用しました。
+                    表示されるのは愛知県の今日の天気のみです。<br>
+                    天気によって背景が変わるように<span class="work__span">JavaScript
+                    </span>で<span class="work__span">if分</span>を使用して
+                    制作をしました。
 
                 </p>
-                <img src="../img/QTalk3.png" alt="#" class="work__img">
+                <img src="../img/weather.png" alt="#" class="work__img work__imgsize">
             </section>
             <section class="work__category">
                 <h4 class="work__subtitle">使用ツール</h4>
                 <ul class="work__list">
+                    <li class="work__item">・<strong>気象庁のAPI:</strong>　
+                        気象庁のAPIを使用して愛知県の気温などを取得しました。</li>
                     <li class="work__item">・<strong>Visual Stadio Code:</strong>　
-                        VSCdeを使い制作をしました。</li>
+                        VSCodeを使い制作をしました。</li>
                     <li class="work__item">・<strong>HTML:</strong>　
-                        メッセージが大きく見やすいようにしたりコードが綺麗に見えるように工夫しました。
+                        降水量を一目でわかるようにして自分がダメな時間をわかるようにしました。
                     </li>
                     <li class="work__item">・<strong>CSS:</strong>　
-                        メッセージが大きく見やすいようにしたりコードが綺麗に見えるように工夫しました。
+                        間隔を気をつけて配置をするようにしました。
                     </li>
                     <li class="work__item">・<strong>JavaScript:</strong>　
-                        接続や、文字の送信などを可能にしました。
+                        APIの情報を取得できるようにしました。
                     </li>
-                    <li class="work__item">・<strong>Node.js:</strong>　
-                        Node.jsでサーバーを構築し、アプリを制作しました。</li>
                 </ul>
-                <img src="../img/QTalk.png" alt="#" class="work__img">
+                <img src="../img/weather2.png" alt="#" class="work__img">
             </section>
             <section class="work__category">
                 <h4 class="work__subtitle">工夫した点</h4>
-                <p class="work__text">このアプリはpcで使うことを想定して作成しています。
-                    トークの画面だけでは横に大きく幅が空いてしまうので自分の名前が表示されるようにしました。
-                    その下には画像を貼り、送信をできるものを配置しましたが、送信はまだできるようになっていません。
+                <p class="work__text">下にいる人も天気によって髪の毛の状態が変わるようにしました。
+                    湿気の多い日の場合,くるくるになるようにして、晴れの日は髪の毛が真っ直ぐの
+                    状態になるようにしました。
                 </p>
-                <img src="../img/QTalk4.png" alt="#" class="work__img">
+                <img src="../img/" alt="#" class="work__img">
             </section>
             <section class="work__category">
-                <p class="work__text work__sp">改善点が次々と出てきましたが、それも含めて楽しんで
-                    制作をできました。初のアプリ制作で完璧とは言えませんが大きな前進となるものとなりました。
+                <p class="work__text work__sp">APIを取得して表示するのは比較的簡単でしたが、
+                    天気によって背景や画像を切り替えるのが難しかったです。
+                    楽しく制作ができてよかったです。
                 </p>
             </section>
             <div class="url">
-                <a href="https://qtalk2022.herokuapp.com/" class="url__link" target="_blank"
-                    rel="noopener noreferrer">QTalkを開く</a>
+                <a href="https://heavy-red-saito-1804.ssl-lolipop.jp/weather/index.html" class="url__link"
+                    target="_blank" rel="noopener noreferrer">お天気アプリを開く</a>
             </div>
         </div>
     </main>

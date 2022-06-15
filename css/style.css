@@ -266,6 +266,9 @@ small {
   width: 100%;
 }
 .work__imgsize {
+  width: 30%;
+}
+.work__imgsize {
   height: 400px;
 }
 .work__list {
@@ -291,6 +294,10 @@ small {
   margin: 0 auto;
   margin-bottom: 40px;
   font-size: 16px;
+}
+.work__span {
+  color: #444;
+  font-weight: bold;
 }
 .work__sp {
   margin-top: 50px;
