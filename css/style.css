@@ -233,6 +233,7 @@ small {
 }
 .post__text {
   font-size: 14px;
+  font-weight: bolder;
   padding-top: 8px;
 }
 
