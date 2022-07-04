@@ -487,3 +487,20 @@ small {
         margin: 0 0 8px 30px;
     }
 }
+
+/* UI */
+.ui {
+    width: auto;
+    height: 400px;
+    padding: 5px;
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+}

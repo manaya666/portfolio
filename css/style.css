@@ -407,4 +407,19 @@ small {
     margin-left: 0;
   }
 }
+
+/* UI */
+.ui {
+  width: auto;
+  height: 400px;
+  padding: 5px;
+}
+.ui__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ui__img {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
