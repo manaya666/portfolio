@@ -340,10 +340,14 @@ small {
   text-align: center;
   margin-bottom: 100px;
 }
+.profile__img {
+  width: 160px;
+  height: 160px;
+}
 .profile__name {
   font-size: 26px;
   font-weight: 600;
-  margin: 80px 0 10px 0;
+  margin: 20px 0 10px;
   letter-spacing: 0.1em;
 }
 .profile__name-en {
