@@ -338,7 +338,7 @@ small {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .profile__img {
   width: 160px;
@@ -358,6 +358,13 @@ small {
   line-height: 1.7em;
   letter-spacing: 0.1em;
 }
+.profile__group {
+  margin-bottom: 60px;
+}
+.profile__h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 .profile__text {
   font-size: 10px;
   font-weight: 300;
@@ -366,7 +373,10 @@ small {
 .profile__text2 {
   font-size: 14px;
   font-weight: 300;
-  width: 65%;
+}
+.profile__text3 {
+  margin-top: 15px;
+  border-bottom: 4px double #666;
 }
 
 .skill {
@@ -410,6 +420,14 @@ small {
     flex-direction: row;
     margin-left: 0;
   }
+}
+.skill__img {
+  width: 40px;
+  height: 40px;
+}
+.skill__img1 {
+  width: 90px;
+  height: 40px;
 }
 
 /* UI */
