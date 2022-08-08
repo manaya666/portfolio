@@ -267,7 +267,7 @@ small {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     &__product {
         @include mobile() {
@@ -277,6 +277,11 @@ small {
 
         flex: 0 1 31.3333%;
         margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    &__product:last-child {
+        margin-right: 0;
     }
 
     &__link {

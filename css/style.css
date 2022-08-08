@@ -206,7 +206,7 @@ small {
 .post {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 @media screen and (max-width: 767px) {
   .post {
@@ -217,12 +217,16 @@ small {
 .post__product {
   flex: 0 1 31.3333%;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 @media screen and (max-width: 767px) {
   .post__product {
     width: 100%;
     margin-top: 10px;
   }
+}
+.post__product:last-child {
+  margin-right: 0;
 }
 .post__link {
   color: #333;
