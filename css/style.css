@@ -9,6 +9,7 @@ body {
   color: #000;
   background-color: #dfe0e0;
   font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Yu Gothic", "Hiragino Sans", sans-serif;
+  line-height: 250%;
 }
 
 img {
@@ -299,6 +300,9 @@ small {
   margin: 0 auto;
   margin-bottom: 40px;
   font-size: 16px;
+}
+.work__text2 {
+  padding-top: 30px;
 }
 .work__span {
   color: #444;
