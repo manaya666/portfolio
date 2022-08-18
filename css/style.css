@@ -208,6 +208,7 @@ small {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 30px;
 }
 @media screen and (max-width: 767px) {
   .post {
@@ -240,6 +241,9 @@ small {
   font-size: 14px;
   font-weight: bolder;
   padding-top: 8px;
+}
+.post__img {
+  height: 80%;
 }
 
 /*  work  */
