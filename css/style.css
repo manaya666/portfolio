@@ -208,6 +208,7 @@ small {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 0 30px;
 }
 @media screen and (max-width: 767px) {
