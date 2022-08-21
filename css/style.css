@@ -245,8 +245,7 @@ small {
   padding-top: 8px;
 }
 .post__img {
-  height: 80%;
-  align-items: flex-start;
+  align-self: auto;
 }
 
 /*  work  */
