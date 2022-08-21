@@ -209,6 +209,7 @@ small {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  height: auto;
   padding: 0 30px;
 }
 @media screen and (max-width: 767px) {
@@ -245,6 +246,7 @@ small {
 }
 .post__img {
   height: 80%;
+  align-items: flex-start;
 }
 
 /*  work  */

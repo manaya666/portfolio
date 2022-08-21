@@ -271,6 +271,7 @@ small {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    height: auto;
     padding: 0 30px;
 
     &__product {
@@ -305,6 +306,7 @@ small {
 
     &__img {
         height: 80%;
+        align-items: flex-start;
     }
 }
 
