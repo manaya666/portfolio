@@ -436,6 +436,11 @@ small {
     margin-left: 0;
   }
 }
+.skill__list-text {
+  font-size: 8px;
+  text-align: center;
+  opacity: 0.5;
+}
 .skill__img {
   width: 40px;
   height: 40px;
